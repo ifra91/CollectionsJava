@@ -1,4 +1,4 @@
-package demo.List;
+package demo.LinkedListDs;
 
 public class Node {
 

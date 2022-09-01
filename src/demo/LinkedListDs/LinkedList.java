@@ -1,4 +1,4 @@
-package demo.List;
+package demo.LinkedListDs;
 
 public class LinkedList {
 
@@ -37,10 +37,10 @@ public class LinkedList {
 //initially we will start with head
         Node node = head;
         //travel using while loop
-        while (node!=null){
+        while (node.next!=null){
             System.out.println(node.data);
             node= node.next;
         }
-
+        System.out.println(node.data);
     }
 }

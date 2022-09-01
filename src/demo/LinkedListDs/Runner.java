@@ -1,4 +1,6 @@
-package demo.List;
+package demo.LinkedListDs;
+
+import demo.LinkedListDs.LinkedList;
 
 public class Runner {
     public static void main(String[] args) {
