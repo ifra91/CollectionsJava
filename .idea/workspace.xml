@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollectionsDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/List/LinkedListImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/List/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/iterator/IteratorExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/iterator/ListIteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/set/TreeSetImpl.java" afterDir="false" />
+    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/demo/List/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/List/LinkedListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/List/LinkedListImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ifra Khan &lt;ifra.khan.1991@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -55,7 +51,12 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="IteratorExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.iterator.IteratorExample1" />
       <module name="CollectionsDemo" />
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.set.TreeSetImpl" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.List.Runner" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.set.*" />
+          <option name="PATTERN" value="demo.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ListExample" />
         <item itemvalue="Application.ListIteratorExample" />
         <item itemvalue="Application.IteratorExample1" />
-        <item itemvalue="Application.TreeSetImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +135,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662008398467</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1662031589909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662031589909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1662031710982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662031710982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>

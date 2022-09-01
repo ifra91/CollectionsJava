@@ -7,8 +7,10 @@ package demo.List;
 //we require three classes 1- node 2-methods for ll 3- main method
 
 //node --> int data, node next
-//Linked list --> insert, insertAt, delete, show
+//Linked list --> insert, insertAt, delete - specify index, show, insert at start
 //Main -->
 
 public class LinkedListImplementation {
+
+
 }
