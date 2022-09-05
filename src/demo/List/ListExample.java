@@ -1,8 +1,6 @@
 package demo.List;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class ListExample {
     public static void main(String[] args) {
@@ -36,6 +34,16 @@ public class ListExample {
 
         //Empty a list by using clear() method
         //Generic list is a List with a type
+
+        //two types of constructor calls we cna have for Linked Lists
+        LinkedList l1= new LinkedList<>();
+        LinkedList l2 = new LinkedList<>();
+
+        //types of Constructor call to Vector
+        Vector v = new Vector<>();
+        Vector v1 = new Vector<>(10);
+        Vector v2 = new Vector<>(100,5); //capacity will be 105 after increment
+        Vector v3 = new Vector<>(); //Collection c
 
     }
 }

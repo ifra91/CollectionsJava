@@ -1,0 +1,359 @@
+//Collections interface has three subtypes
+
+1. Iterable
+
+    1.Collection
+        1.list
+        2.Set --> sortedset --->navigable set
+        3.Queue --> dequeue
+
+2. Iterator --> List Iterator
+
+3.Map --> sorted map -->navigable map
+
+what is need/purpose of collection?
+limitations of array:
+1.Array has fixed size, we cannot incs or decrease the soze
+2.can hold only homogeneous data; data of same type
+object type arrays can store diff type of data but it will have type object
+3. it is not implemented based on data structure; readymade support noe available
+
+ to overcome these we have collections
+ 1. collections are growable in nature.
+ 2. Arrays can hold hetero and homogeneous objects
+ 3. every collection class is based on some stabdard data structure
+
+ If you know size in advance use arrays not collections
+ when size is not know only that time go for collection.
+
+Differences between Arrays and Collections:
+
+Arrays
+1. fixed in size
+2. with respect to memory we do not use array
+3. performcnce wise arrays are recommended
+4.Arrays can hold only homogeneous elements
+5. readymade method support not available
+6.primitives and objects we can hold
+
+Collections
+1. growable
+2. wrt memory
+3. can only hold objects
+4.both homogeneous and heterogeneous
+
+Collection and Collection framework:
+Collection : A group of individual objects
+Collection framework: several classes and interfaces used as single entity
+
+Collection and Collections:
+Collection is an interface collections is a class
+
+9 key Interfaces of collection framework
+1. Collection(I): when i want to represent grp of individual object as single entity, considered as root interface, there is no concrete class which implements collection interface directly.
+2. List(I): duplicates are allowed it is child interface of collections --> Arraylist, Linkedlist, vector-->stack(both are legacy classes 1.0 version)
+3. Set(I): Child of collection if we do not want duplictaes in 1.2 version set(I) and hashset.
+
+Differences btw list and set
+list duplicates are allowed
+insertion order is preserved
+
+set
+duplicates are not allowed
+insertion order is not preserved
+
+Sorted set is child interface of collection and set, withour duplicates if we want to have some sorted order
+
+Navigable Set(I) is a child interface of sorted set,
+treeset is implementation class
+
+Queue(I): Collection is already there order is fifo
+Priority Queue
+Blocking queue ==> Linked-Blocking Queueu
+Blocking queue ==> Priority-Blocking Queue
+it came in 1.5 version
+
+If we want to represent a group of objects as key value pairs,
+then we should go for map interface.
+
+7. Map Interface
+It in not child interface of collection
+if we want to represent a key value pair, both are objects
+duplicate values are allowed key are not allowed
+Hashmap, linked hashmap
+weak hashmap
+
+Identity hash-map
+
+Dictionary--> hashtable--> properties all these are legacy classes
+Hashtable is child of dictionary
+
+Sorted map (I):
+it is child interface of map, when we want to represent a group of key value pairs acoording to some sorting order
+of keys then we should for sorted map,
+Treemap is implementation class of navigable map.
+
+Navigation map defines some methods for implementation
+
+
+Sorting---->
+Comparable--> used for default sorting order
+Comparator--> used for custom sorting order
+
+Cursors----->
+Enumeration
+Iterator
+ListIterator
+
+Utility classes in collection--->
+1.Collections
+2.Arrays
+
+Collection Interface Details:
+Group of individual objects as single entity; most common methods in collection interface
+add(object o) //boolean
+addAll(Collection c) //boolean
+remove(object o) //boolean
+removeALl(Collection c) //boolean
+clear() //void
+retainAll(Collection c) //except these all shud be removed
+isEmpty()
+size()
+contains(object o) //particular object present or not
+containsAll(Collection c) //particular collection of object
+c.toArray //convert collection to array
+iterator()
+
+**Note : Collection interface does not contain any method to retirieve objects,
+there is no concrete class which implements collection class directly
+
+List Interface: if we want insertion order preserved, duplicates allowed
+we can differentiate using index.
+add(int index, object o) //void
+addALl(Int index, Collection c)
+get(int index) //object
+set(int index) //object
+ListIterator
+remove()
+
+1. ArrayList:
+    Resizable array are growable array
+    duplicates are allowed
+    insertion order preserved
+    heterogeneous objects allowed(treeset and treemap no heterogeneous data allowed)
+    null insertion is possible
+
+Constructors in arraylist:
+capacity = cc*3/2 +2
+to improve performance go for capacity
+null insertion allowed
+
+Every collection Implements serializable interface so all sub interfaces and classes are serializable
+it also implements randomAccessInterface
+//we can access random element with same speed
+it is called marker(I)
+//RandomAccess:
+Present in java.util package
+it does not contain any methods and it is a marker interface
+
+//if we frequent retrieving of data then we shud take al
+//if frequent operation is insertion or deletion in the middle(because shift operation are require)
+
+Differences Between ArrayList and Vector
+arraylist---->
+all method are non synchronized
+no thread safety
+multiple can operate at a time
+performance is high
+non legacy
+
+vector---->
+synchronised
+thread safe
+performance is low
+legacy
+
+How to get synchronized version of Array List Object:
+by default al is not synchronized
+non-synchronizer
+use method synchronizedList(List l)
+
+LinkedList:
+
+second implementation class of list
+1.when insertion and deletion is in middle use ll
+2. elements wud not be stored in consecutive memory
+3. changes are made to node
+4. underlying ds for ll is doubly-linked list
+5. insertion order is preserved
+6. heterogeneous and null are allowed
+
+Difference btw Arraylist and LinkedList
+ArrayList---->
+1.best retrieval
+2. resizable or growable array
+3.Implements randomAccess
+
+LinkedList---->
+1.best for insertion in middle
+2. Double linked list
+3. does not implement randomAccess
+
+Vector Class Details--->
+resizable and growable
+duplicates allowed
+insertion order preserved
+heterogeneous(except tree-set and tree-map)
+serializable and cloneable
+RandomAccess Interface
+most methods are synchronized
+they are thread safe
+
+Vector specific method:
+//add
+add(Object o)
+add(int index, Object o)
+addElement(Object o)
+
+//remove
+Remove(Object o)
+removeElementAt(int index)
+clear()
+removeAllElements()
+
+//retrieve or access
+Object get(int index)
+Object elementAt(int index)
+Object firstElement()
+Object lastElement()
+
+//Other Methods:
+int size();
+int capacity();
+Enumeration elements();
+
+Stack ---> is child class of vector
+LIFO
+
+methods of stack
+push() --> add object into stack
+pop()  ---> remove top of element
+peek() ---> to return top of stack without removing it
+empty() --> if stack empty or not
+search() ---> returns offset
+
+//Various cursors in java
+If we want to retireve Objects one by one from the collection then we should go for cursors
+1. Enumeration -->
+method used v.elements method
+hasMoreElements(); nextElement();
+limitations Enumeration: applicable only for legacy classes and  hence it is not a universal cursor.
+by using Enumeration we can get only read access and we can't perform remove operation
+Applicable only for legacy classes
+single direction cursors only move in forward direction
+We have only read access
+3 methods
+1.0
+
+
+2. Iterator --->
+it is universal cursor; applicable for any class, read, remove
+we can apply iterator concept for any collection object hence it is universal cursor
+by using iterator we can perform both read and remove
+methods hasMore() and next().
+limitations:
+only forward direction cursors
+only read and remove is present
+we cannot replace and addition of objects
+applicable for any collection class
+single direction cursors only move in forward direction
+read and remove
+iterator()
+1.2
+
+
+3. List Iterator ---->
+it is bidirectional; we can move fwd as well as bcwd, we can perform read,remove, replacement
+child interface of iterator, hasNext(), next(), nextIndex() ---> they are used for fwd movement
+hasPrevious(), previous(), remove() ----> backward
+remove(), set(Object new), add(Object new)
+Applicable for list implemented class objets
+read,remove,replace
+listIterator()
+has 9 methods
+1.2
+
+***Note
+e.getClass().getName()
+//to get class name of object
+
+Hashset:
+ds is hashtable
+duplicate not allowed
+insertion order won't be preserved
+heterogeneous and null allowed
+serializable and cloneable
+search operation hashset is best
+fill ratio or load factor = 0.75 i.e. 75% of initial capacity --> after loading how much factor, a new hashset object will be created, the factor is called as Load factor or fill ratio
+1.2 version
+
+//Linked Hashset:
+1.4 version duplicates are not allowed insertion order is preserved
+ds is hashtable+linkedList
+insertion order preserved
+**Linked Hashset is the best to develop cache based applications, where duplicates are not allowed and insertion order must be preserved.
+
+//Sorted set
+it is child interface of set
+if we want to represent a group of individual objects according to some sorting order and duplicates are not allowed then we should go for sortedset
+sorted-set specific methods
+first(), last(), headSet(), tailSet(), subSet()
+comparator()--> returns comparator object that describes underlying sorting technique
+
+TreeSet details:it is a balanced Tree: duplicates are not allowed; insertion order not applicable; heterogeneous objects are not allowed
+has sorted order by default, null acceptance is allowed only once
+
+type of constuctor for treeset
+ treeset a = new treeset()
+ treeset a = new treeset(comparator c)
+ treeset a = new treeset(Sortedset c)
+ treeset a = new treeset(collection c)
+
+null acceptance:
+to insert null we need some comparision
+
+For empty treeset the first element null insertion is possible.
+but after inserting that null if we trying to insert any another element we will get nul pointer exception
+for non empty treeset if we trying to insert then we will get nullpointerexception
+
+if depending on default natural sorting order then objects should br homogeneous and comparable. otherwise we will get runtime exception saying ClassCastException
+an object is said to be comparable if and only if th corresponding class implements java.lang.comparable interface
+String Class and all wrapper classes already implements comparable interface but string buffer does not implement comparable interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

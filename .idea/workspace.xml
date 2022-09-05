@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="Second Commit">
+    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="Third Commit">
+      <change afterPath="$PROJECT_DIR$/src/Collections.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ComImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ComparableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ComparatorPt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/List/VectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/Map/HashtableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/Map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/Stack/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/generics/GenericsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/iterator/IterableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/iterator/IterableExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/iterator/IterableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/set/SetEg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/set/setDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/LinkedListDs/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/List/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/LinkedListDs/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/List/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/LinkedListDs/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/List/LinkedListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/List/LinkedListImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/List/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/List/ListExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +59,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.demo.List.Runner">
-    <configuration name="IteratorExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.iterator.IteratorExample1" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\OOp\CollectionsDemo\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SetEg2">
+    <configuration name="ComparatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.List.ComparatorDemo" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.iterator.*" />
+          <option name="PATTERN" value="demo.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.iterator.ListIteratorExample" />
+    <configuration name="ComparatorPt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.List.ComparatorPt2" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.iterator.*" />
+          <option name="PATTERN" value="demo.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,19 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="CollectionsDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.LinkedListDs.Runner" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.MapDemo" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.LinkedListDs.*" />
+          <option name="PATTERN" value="demo.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.List.ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.List.ListExample" />
+    <configuration name="SetEg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.set.SetEg2" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.LinkedListDs.*" />
+          <option name="PATTERN" value="demo.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.set.setDemo" />
+      <module name="CollectionsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo.List.Runner" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.demo.List.ListExample" />
-        <item itemvalue="Application.ListIteratorExample" />
-        <item itemvalue="Application.IteratorExample1" />
+        <item itemvalue="Application.SetEg2" />
+        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.setDemo" />
+        <item itemvalue="Application.ComparatorPt2" />
+        <item itemvalue="Application.ComparatorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662034599162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third Commit">
+      <created>1662035495543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662035495543</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third Commit">
+      <created>1662035509200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662035509200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
 </project>

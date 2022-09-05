@@ -10,6 +10,15 @@ package demo.List;
 //Linked list --> insert, insertAt, delete - specify index, show, insert at start
 //Main -->
 
+//LinkedList and ArrayList Difference
+//both are implementation of List
+//difference lies in implementation
+//array is implemented with dynamic array
+//ll is implemented with double ll, it is fast if we want to assign values in between
+//arraylist is slow
+
+
+
 public class LinkedListImplementation {
 
 
