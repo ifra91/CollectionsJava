@@ -50,7 +50,7 @@ class CompCompDemo {
         t1.add(e3);
         t1.add(e4);
         t1.add(e5);
-        System.out.println();
+        System.out.println(t1);
 
     }
 }

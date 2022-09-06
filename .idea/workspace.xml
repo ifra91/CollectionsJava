@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="Collections.txt Added">
-      <change afterPath="$PROJECT_DIR$/src/demo/Comp/CompareTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/set/TreeSetDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/set/TreeSetdemo4.java" afterDir="false" />
+    <list default="true" id="a0887bdb-8278-4a17-ab16-1f53f34d811c" name="Changes" comment="fourth commit">
+      <change afterPath="$PROJECT_DIR$/src/demo/SortingDemo/ArralistDemo/StudentData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Comp/CompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/Comp/CompareTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/SortingDemo/ArralistDemo/ArrayListSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/SortingDemo/ArralistDemo/ArrayListSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,20 @@
       <recent name="C:\Users\Dell\IdeaProjects\OOp\CollectionsDemo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompCompDemo">
+  <component name="RunManager" selected="Application.StudentData">
+    <configuration name="ArrayListSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SortingDemo.ArralistDemo.ArrayListSort" />
+      <module name="CollectionsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.SortingDemo.ArralistDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompCompDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Comp.CompCompDemo" />
       <module name="CollectionsDemo" />
@@ -77,25 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Map.MapDemo" />
+    <configuration name="StudentData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SortingDemo.ArralistDemo.StudentData" />
       <module name="CollectionsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetEg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.set.SetEg2" />
-      <module name="CollectionsDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.set.*" />
+          <option name="PATTERN" value="demo.SortingDemo.ArralistDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentData" />
         <item itemvalue="Application.CompCompDemo" />
+        <item itemvalue="Application.ArrayListSort" />
         <item itemvalue="Application.TreeSetdemo4" />
         <item itemvalue="Application.TreeSetDemo3" />
-        <item itemvalue="Application.SetEg2" />
-        <item itemvalue="Application.MapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662374388555</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fourth commit">
+      <created>1662445214775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662445214775</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +215,7 @@
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
     <MESSAGE value="Collections.txt Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections.txt Added" />
+    <MESSAGE value="fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
 </project>
