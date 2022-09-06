@@ -330,11 +330,78 @@ if depending on default natural sorting order then objects should br homogeneous
 an object is said to be comparable if and only if th corresponding class implements java.lang.comparable interface
 String Class and all wrapper classes already implements comparable interface but string buffer does not implement comparable interface
 
+Comparable interface contains compareTo(Object obj), return type is int, it returns
+negative value, obj1 has to come before obj2
++ obj1> obj2
+0 if obj1 == obj2
+if compared to null will get null point exception
+
+If we depending on default natural sorting order internally JVM will call compareto() method will inserting objects to the treeset, hence the objects should be comparable
+
+If we are not satisfied with default natural sorting order or if the default natural sorting order is not already available then we can define our own customized sorting by using comparator
+Comparable ment for default natural sorting order where as comparator ment for customized sorting order.
+
+Comparator(I): meant for customized sorting order, present in java.util package.
+compare() and equals()
+public int copmare(object o1, object o2)
+returns -ve if obj1 has to come before obj2
+returns +ve if obj1 come after obj 2
+0 if obj1==obj2
+
+public boolean equals()
+
+how can we use comparator
+compare to takes negative
+If we r defining own sorting by comparator, the objects
+need not be Comparable
+
+** If we are depending on default natural sorting order then objects should be homogeneous and comparable otherwise we will gwt runtime exception saying classCastException.
+but if we are defining our own sorting by comparator then objects need not be homogeneous and comparable. we can insert heterogeneous non comparable objects also.
+
+for predefined comparable classes eg string we should go for comparator
+for predefined non-comparable classes (StringBuffer) we should use comparable
+
+//For predefined Comparable classes like String default natural sorting order already available.If we
+are not satisfied with that, we can define our own sorting by compaarator object.
+
+//For predefined non comparable classes like StringBuffer, default natural sorting order is not already availbale. we can define required sorting by implementing Comparator interface
+
+// example Employee, student, customer , the person who is writing our own class, he is responsible to define default natural sorting order by implementing Comparable interface
+if not stisfied by this you can use comparator for user defined specific order
+
+**Comparable
+it is meant for default sorting order
+present in java.lang
+compareTo()
+All wrapper classes and String classes
 
 
+**Comparator
+Customizes Sorting order
+present in java.util
+two methods compare() and quals
+only implemented classes are collator and ruleBasedCollator
 
+hashset
+hahstable
+insertion order not preserved
+no sorting order
+heterogenous  allowed
+null acceptance allowed only once
 
+LinkedHashSet
+hahstable+LinkedList
+preserved
+no sorting order
+heterogenous  allowed
+null acceptance allowed only once
 
+tree set
+balanced tree
+not preserved
+sorted
+no heterogeneous allowed(in special cases allowed when sorting usin comparator)
+only as first element null is allowed
 
 
 
